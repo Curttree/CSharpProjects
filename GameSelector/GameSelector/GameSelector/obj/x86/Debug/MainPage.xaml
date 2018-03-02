@@ -10,6 +10,9 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button x:ConnectionId='1' x:Name="Select_Game" Content="Random Game" HorizontalAlignment="Stretch" Margin="0,73,0,0" VerticalAlignment="Top" Height="78"                     />
         <TextBlock x:ConnectionId='2' x:Name="GameToPlay" Height="65" Margin="0,166,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"                                                HorizontalAlignment="Center"/>
+        <CheckBox x:ConnectionId='3' x:Name="NES" Content="NES" HorizontalAlignment="Center" Margin="0,336,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:ConnectionId='4' x:Name="SNES" Content="SNES" HorizontalAlignment="Center" Margin="0,363,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:ConnectionId='5' x:Name="N64" Content="N64" HorizontalAlignment="Center" Margin="0,393,0,0" VerticalAlignment="Top" IsChecked="True"/>
 
     </Grid>
 </Page>

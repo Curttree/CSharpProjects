@@ -37,9 +37,27 @@ namespace GameSelector
         private string RandomGame()
         {
             Random rnd = new Random();
-            var lines = File.ReadAllLines("games.csv").Select(a => a.Split(';'));
-            int game = rnd.Next(0, lines.Count());
-            string choice = lines.ElementAt(game)[0].ToString();
+            StreamReader reader = new StreamReader(File.OpenRead(@"games.csv"));
+            List<string> listA = new List<String>();
+            List<string> listB = new List<String>();
+            //string vara1, vara2, vara3, vara4;
+            while (!reader.EndOfStream)
+            {
+                string line = reader.ReadLine();
+                if (!String.IsNullOrWhiteSpace(line))
+                {
+                    string[] values = line.Split(',');
+                    if (values.Length >= 2)
+                    {
+                        listA.Add(values[0]);
+                        listB.Add(values[1]);
+                    }
+                }
+            }
+            string[] firstlistA = listA.ToArray();
+            string[] firstlistB = listB.ToArray();
+            int game = rnd.Next(0, listA.Count());
+            string choice = listA.ElementAt(game).ToString();
             return choice;
         }
 
