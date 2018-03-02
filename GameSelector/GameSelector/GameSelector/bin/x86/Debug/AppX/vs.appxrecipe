@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Projects\CSharpProjects\GameSelector\GameSelector\GameSelector\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-02T05:10:10.179</Modified>
+      <Modified>2018-03-02T05:23:36.789</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projects\CSharpProjects\GameSelector\GameSelector\GameSelector\bin\x86\Debug\GameSelector.exe">
       <PackagePath>entrypoint\GameSelector.exe</PackagePath>
-      <Modified>2018-03-02T05:10:09.743</Modified>
+      <Modified>2018-03-02T05:23:36.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Curtis\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -535,7 +535,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\CSharpProjects\GameSelector\GameSelector\GameSelector\bin\x86\Debug\GameSelector.xr.xml">
       <PackagePath>GameSelector.xr.xml</PackagePath>
-      <Modified>2018-03-02T05:10:09.625</Modified>
+      <Modified>2018-03-02T05:23:35.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +544,11 @@
     <AppxPackagedFile Include="D:\Projects\CSharpProjects\GameSelector\GameSelector\GameSelector\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-02T05:10:10.048</Modified>
+      <Modified>2018-03-02T05:23:36.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\CSharpProjects\GameSelector\GameSelector\GameSelector\bin\x86\Debug\Core\GameSelector.exe">
       <PackagePath>GameSelector.exe</PackagePath>
-      <Modified>2018-03-02T05:10:10.177</Modified>
+      <Modified>2018-03-02T05:23:36.782</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
