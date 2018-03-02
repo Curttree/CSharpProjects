@@ -1,0 +1,1 @@
+D:\Projects\CSharpProjects\GameSelector\GameSelector\GameSelector\GameSelector.csproj;x86
